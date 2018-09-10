@@ -1,0 +1,28 @@
+body{
+  background:url('background.jpg');
+}
+
+h1.important{
+  color:red;
+}
+
+p.important{
+  color:blue;
+}
+
+.important{
+  font-style:italic;
+}
+
+.centered{
+  text-align: center;
+}
+
+
+ol.level1{
+  list-style-type: upper-roman;
+}
+
+ol.level2{
+  list-style-type: lower-roman;
+}
