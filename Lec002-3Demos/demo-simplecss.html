@@ -2,6 +2,14 @@
  <head>
   <title>Title of my page</title>
   <link rel="stylesheet" href="simplecss.css" />
+  <script>
+    function DoSomething(){
+      var inputText = document.getElementById('inputText').value;
+      var inputNumber = parseFloat(inputText);
+      document.getElementById('outputText').value = inputNumber * 2;
+    }
+  </script>
+  <script src="simple.js" > </script>
  </head>
  <body>
   <h1>First level</h1>
@@ -10,7 +18,7 @@
   <p class="important">An important paragraph</p>
   <p class="centered">A centered paragraph</p>
   <h3>Third level</h3>
-  <img src="http://flavorwire.files.wordpress.com/2013/11/calvin-and-hobbes.jpg?w=1920" height="200" />
+  <img src="calvin.jpg" height="200" />
   <!-- A comment -->
   <h1>First level again</h1>
   <h1 class="important centered">First level again</h1>
@@ -25,5 +33,19 @@
     <li>Item 3</li>
     <li>Item 4</li>
   </ol>
+  <textarea rows="4" cols="40">
+    Here is my
+    multiple lines
+    of text
+  </textarea><br/>
+  <input type="text" id="inputText" /><br/>
+  <input type="text" id="outputText" /><br/>
+  <input type="button" onclick="
+    var inputText = document.getElementById('inputText').value;
+    var inputNumber = parseFloat(inputText);
+    document.getElementById('outputText').value = inputNumber * 2;
+  " value="Copy value" />
+  <input type="button" onclick="DoSomething();" value="Do Something" />
+  <input type="button" onclick="SayHi();" value="Say Hi" />
  </body>
 </html>
