@@ -1,0 +1,7 @@
+h1{
+  font-size: 300%;
+}
+
+h1.important{
+  color:red;
+}
