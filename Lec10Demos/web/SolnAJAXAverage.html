@@ -21,9 +21,16 @@ and open the template in the editor.
                 var url = "AverageSolnServlet";
                 var params = "score=" + encodeURIComponent(scoreField.value);
                 xmlhttp.open("POST", url, true);
+                
                 xmlhttp.onreadystatechange = callback;
                 xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
                 xmlhttp.send(params);
+                
+                // How the code would differ if retreived by GET
+//                var url = "AverageSolnServlet?score="+encodeURIComponent(scoreField.value);
+//                xmlhttp.open("GET", url, true);
+//                xmlhttp.onreadystatechange = callback;
+//                xmlhttp.send();
             }
             
             
