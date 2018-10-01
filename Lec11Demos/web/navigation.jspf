@@ -1,0 +1,11 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<a href="date.jsp">Date demo</a><br/>
+<a href="demoImplicitObjects.jsp">Implicit objects</a><br/>
+<a href="demoPageContext.jsp">Page context</a><br/>
+<a href="pageWithError.jsp">Page with error</a><br/>
+<a href="demoJavaBean.jsp">Java bean</a><br/>
+<a href="beanCounter.jsp">Bean counter</a><br/>
+<a href="CDEntrySoln.jsp">Your CD entry shell</a><br/>
+<a href="CDEntrySoln.jsp">What the CD functionality should look like when completely done</a><br/><br/>
+<a href="DisplayPeopleFromDBServlet">How separation of controller DB logic from view display logic is done</a><br/>
