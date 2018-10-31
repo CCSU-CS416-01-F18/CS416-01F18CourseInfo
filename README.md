@@ -6,3 +6,10 @@ This code should in no way be considered production ready, but rather as quick d
 
 Link to online site associated with Rails textbook we will be using:
 https://www.railstutorial.org/
+
+# Demo Rails apps
+*"Cart before the horse"* school directory demo:
+https://github.com/CCSU-CS416-01-F18/classdirectory
+
+On going demo from Chapter 1 of the text
+https://github.com/CCSU-CS416-01-F18/hello_app
