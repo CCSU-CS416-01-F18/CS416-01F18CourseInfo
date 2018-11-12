@@ -13,3 +13,6 @@ https://github.com/CCSU-CS416-01-F18/classdirectory
 
 On going demo from Chapter 1 of the text
 https://github.com/CCSU-CS416-01-F18/hello_app
+
+On going demo from Lecture 3 on
+https://github.com/CCSU-CS416-01-F18/sample_app
